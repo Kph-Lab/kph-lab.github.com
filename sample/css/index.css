@@ -11,12 +11,14 @@ div.wrapBox{
 
 div#mainContents{
 	width: 700px;
-	float: right;
+	float: left;
+	padding-left: 20px;
 }
 
-div#leftContents{
+div#rightContents{
 	width: 200px;
-	float: left;
+	float: right;
+	
 }
 
 ul#subNavigation{}
@@ -47,6 +49,12 @@ h3{
 
 p{
 	margin-bottom: 15px;
+}
+
+.mB20{
+    -webkit-box-shadow: 0 0px 50px #8d8c8c;
+    -moz-box-shadow: 0 0px 50px #8d8c8c;
+     box-shadow: 0 0px 50px #8d8c8c;
 }
 
 
@@ -306,6 +314,11 @@ div.txtTemp6 div.fL{ width: 350px;}
 div.txtTemp6 strong{ margin-bottom: 6px;}
 div.txtTemp6 span{ color: #666;}
 div.txtTemp6 p{ float: right; width: 320px;}
+div.txtTemp6 img{ 
+    -webkit-box-shadow: 0 0px 10px #8d8c8c;
+    -moz-box-shadow: 0 0px 10px #8d8c8c;
+     box-shadow: 0 0px 10px #8d8c8c;
+}
 
 /* txtTemp7 */
 div.txtTemp7{}
@@ -313,5 +326,10 @@ div.txtTemp7 div.fR{ width: 350px;}
 div.txtTemp7 strong{ margin-bottom: 6px;}
 div.txtTemp7 span{ color: #666;}
 div.txtTemp7 p{ float: left; width: 320px;}
+div.txtTemp7 img{ 
+    -webkit-box-shadow: 0 0px 10px #8d8c8c;
+    -moz-box-shadow: 0 0px 10px #8d8c8c;
+     box-shadow: 0 0px 10px #8d8c8c;
+}
 
 
