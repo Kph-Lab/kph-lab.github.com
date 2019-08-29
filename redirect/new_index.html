@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="new.css">
+    <title>旧・海城中高物理部</title>
+</head>
+<body>
+    <div>
+        <p id="timer">5秒後に新しいサイトへ自動で転送されます。</p>
+        <p>新・サイト<a href="https://kaijo-physics-club.work"></a></p>
+    </div>
+    <script>
+        var time = 6;
+        var countdown = function() {
+            time--;
+            document.getElementById('timer').innerHTML = time + '秒後に新しいサイトへ自動で転送されます。'
+            var id = setTimeout(countdown, 1000);
+            if(time == 0){
+                clearTimeout(id);
+                location.href = "https://kaijo-physics-club.work"
+            }
+        }
+        countdown();
+    </script>
+</body>
+</html>
