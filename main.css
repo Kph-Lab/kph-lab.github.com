@@ -3,8 +3,7 @@ html, body {
     width: 100%;
     position: relative;
 }
-div {
-    width: 60%;
+div.main {
     height: 40%;
     top: 0;
     bottom: 0;
